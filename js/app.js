@@ -78,3 +78,6 @@ const updateTotal = () => {
     getInputValue("total-tax");
   document.getElementById("total").innerText = grandTotal;
 };
+
+
+// i have done cloning step in js 
