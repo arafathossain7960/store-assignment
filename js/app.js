@@ -16,7 +16,7 @@ const showProducts = (products) => {
       </div>
       <h3>${product.title}</h3>
       <h5>Category: ${product.category}</h5>
-      <h4>Rating : ${product.rating.count}</h4>
+      <h4>Total Rating : ${product.rating.count}</h4>
       <h4>Average Rating : ${product.rating.rate}</h4>
       <h3>Price: $ ${product.price}</h3>
       <div class="button-container">
