@@ -5,34 +5,40 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ranga-store-fix</title>
+  <title>Es-Treeks </title>
+  <!-- custom css link  -->
   <link rel="stylesheet" href="./css/style.css" />
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
-
   <!-- google Montserrat  font  -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet" />
+  <!-- font awesome link  -->
+  <script src="https://kit.fontawesome.com/a4da1561f6.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-  <header></header>
-  <main class="main">
-    <div class="search-field">
-      <div class="search-box">
-        <input id="input-field" class="search-field" type="text" />
-        <button type="button" class="btn btn-primary search-button" data-toggle="button" aria-pressed="false"
-          autocomplete="off" id="search-btn" onclick="loadProducts()">
-          Search
-        </button>
-      </div>
+  <!-- header section  -->
+  <header class="my-5">
+    <h1 class="title-text text-center mt-5"> Welcome to <span class="text-success" >Es-Treeks</span> Shopping mall </h1>
+  </header>
+ 
+   <!---------- search area ------------>
+  <section class=" ">
+    <div class="search-section">
+      <input type="text " placeholder="Find your favorite product"><button class="btn btn-success">search</button>
     </div>
+  
+</section>
+ <!-- start main section  -->
+  <main class="main">
+    <!-- product display area  -->
     <div class="row">
       <div class="col-md-9 col-lg-9 col-sm-7">
         <div id="all-products" class="">
-       
         </div>
       </div>
       <div class="col-md-3 col-lg-3 col-sm-5 cart-main">
@@ -80,18 +86,18 @@
             </tbody>
           </table>
           <div class="parces text-center">
-            <button class="btn btn-primary text-center">Buy Now</button>
+            <button class="btn btn-success text-center">Buy Now</button>
           </div>
         </div>
       </div>
     </div>
   </main>
-  <footer></footer>
+  <!-- start footer section  -->
+<footer></footer>
 
   <!-- add javascript  file  -->
   <script src="./js/app.js"></script>
 </body>
 
 </html>
-
-<!-- i have done the cloning step  -->
+<!-------- end ------- -->
